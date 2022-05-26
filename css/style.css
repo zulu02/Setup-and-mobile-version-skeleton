@@ -1,49 +1,65 @@
+li {
+  list-style: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
 body {
-  background-image: url("../images/header-shapes\ mobile.png");
   background-color: #ffff;
 }
 
-.nav-mobile {
+.container {
+  background-image: url("../images/header-shapes\ mobile.png");
+  background-size: cover;
+}
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: -1;
-}
-
-.menu {
-  width: 30px;
-  height: 4px;
-  background-color: #acb7c3;
-  margin: 6px 0;
-  margin-right: 20px;
+  padding: 2em;
 }
 
 .logo {
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 18px;
   font-weight: 700;
+  line-height: 20px;
   color: #6070ff;
+}
+
+.resize {
+  width: 20px;
+  height: auto;
 }
 
 .greeting {
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
   color: #172b4d;
   font-weight: 700;
   padding-left: 30px;
   justify-content: left;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .para {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-family: Poppins, sans-serif;
+  justify-content: left;
+  font-family: 'Poppins';
   font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   color: #344563;
   padding-left: 30px;
+  padding-right: 10px;
+
 }
 
 .soc {
@@ -56,23 +72,12 @@ body {
 
 .social {
   display: flex;
-  margin-right: 0.5em;
-  padding: 1em;
   list-style: none;
+  gap: 20px;
+  padding-left: 30px;
 }
 
-.a:hover {
-  background-color: blue;
+.resizeicon {
+  width: 14.17px;
+  height: auto;
 }
-
-/* the second class of socials */
-
-.maria {
-  margin-right: 1em;
-}
-
-.twitter {
-  margin-left: 15px;
-}
-
-/* the third class of socials */
