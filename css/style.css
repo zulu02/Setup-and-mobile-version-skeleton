@@ -14,6 +14,7 @@ body {
   background-image: url("../images/header-shapes\ mobile.png");
   background-size: cover;
 }
+
 header {
   display: flex;
   align-items: center;
@@ -22,7 +23,7 @@ header {
 }
 
 .logo {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 18px;
   font-weight: 700;
@@ -39,7 +40,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 40px;
   line-height: 52px;
@@ -52,14 +53,13 @@ header {
 
 .para {
   justify-content: left;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
   padding-left: 30px;
   padding-right: 10px;
-
 }
 
 .soc {
