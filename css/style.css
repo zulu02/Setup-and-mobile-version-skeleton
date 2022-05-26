@@ -1,66 +1,78 @@
 body {
-    background-image: url("../images/header-shapes\ mobile.png");
-    background-color: #FFFFFF;
+  background-image: url("../images/header-shapes\ mobile.png");
+  background-color: #ffff;
 }
+
 .nav-mobile {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: -1;
 }
+
 .menu {
-    width: 30px;
-    height: 4px;
-    background-color: #ACB7C3;
-    margin: 6px 0;
-    margin-right: 20px;
+  width: 30px;
+  height: 4px;
+  background-color: #acb7c3;
+  margin: 6px 0;
+  margin-right: 20px;
 }
+
 .logo {
-    font-family: Poppins;
-    font-weight: 700;
-    color: #6070FF;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  color: #6070ff;
 }
+
 .greeting {
-    display: flex;
-    flex-direction: column;
-    align-items:baseline;
-    font-family: Poppins;
-    color: #172B4D;
-    font-weight: 700;
-    padding-left: 30px;
-    justify-content: left;
-    margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  font-family: Poppins, sans-serif;
+  color: #172b4d;
+  font-weight: 700;
+  padding-left: 30px;
+  justify-content: left;
+  margin-top: 100px;
 }
+
 .para {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-family: Poppins;
-    font-weight: 400;
-    color: #344563;
-    padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  color: #344563;
+  padding-left: 30px;
 }
+
 .soc {
-    display: flex;
-    flex-direction: column;
-    font-weight: 400;
-    color: #7F8CFF;
-    padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  color: #7f8cff;
+  padding-left: 30px;
 }
-.social{
-    display: flex;
-    margin-right: 0.5em;
-    padding: 1em;
-    list-style: none;
+
+.social {
+  display: flex;
+  margin-right: 0.5em;
+  padding: 1em;
+  list-style: none;
 }
+
 .a:hover {
-    background-color: red;
+  background-color: blue;
 }
-/*the second class of socials */
+
+/* the second class of socials */
+
 .maria {
-    margin-right: 1em;
+  margin-right: 1em;
 }
+
 .twitter {
-    margin-left: 15px;
+  margin-left: 15px;
 }
-/*the third class of socials */
+
+/* the third class of socials */
